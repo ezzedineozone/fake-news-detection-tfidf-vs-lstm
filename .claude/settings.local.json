@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(git clone *)",
+      "Bash(curl -s \"https://api.github.com/users/VanR20/repos?per_page=100\")",
+      "Bash(curl -s \"https://api.github.com/users/tlberg2/repos?per_page=100\")",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=Song_Popularity+VanR20\")",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=451_final_project+tlberg2\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -c \"import pandas as pd; df=pd.read_csv\\(r'/c/Users/ezzed/Documents/Machine learning project/repos/FakeNews_LSTM_Mirror/Test Data & Results/test.csv'\\); print\\('shape:', df.shape\\); print\\('columns:', list\\(df.columns\\)\\); print\\('id range:', df['id'].min\\(\\), '-', df['id'].max\\(\\)\\); print\\('null counts:'\\); print\\(df.isna\\(\\).sum\\(\\)\\); print\\('---encoding sniff---'\\); print\\(repr\\(df['text'].iloc[0][:200]\\)\\)\")",
+      "PowerShell(python -c \"import pandas as pd; df=pd.read_csv\\(r'C:\\\\Users\\\\ezzed\\\\Documents\\\\Machine learning project\\\\repos\\\\FakeNews_LSTM_Mirror\\\\Test Data & Results\\\\test.csv'\\); print\\('shape:', df.shape\\); print\\('columns:', list\\(df.columns\\)\\); print\\('dtypes:'\\); print\\(df.dtypes\\); print\\('id range:', df['id'].min\\(\\), '-', df['id'].max\\(\\)\\); print\\('null counts:'\\); print\\(df.isna\\(\\).sum\\(\\)\\); print\\('---first text---'\\); print\\(repr\\(df['text'].iloc[0][:200]\\)\\)\")",
+      "PowerShell($paths = @\\(\"C:\\\\Python312\",\"C:\\\\Python311\",\"C:\\\\Python310\",\"$env:LOCALAPPDATA\\\\Programs\\\\Python\",\"C:\\\\ProgramData\\\\Anaconda3\",\"C:\\\\ProgramData\\\\miniconda3\",\"$env:USERPROFILE\\\\anaconda3\",\"$env:USERPROFILE\\\\miniconda3\"\\); foreach \\($p in $paths\\) { if \\(Test-Path $p\\) { Get-ChildItem -Path $p -Filter \"python.exe\" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 5 | ForEach-Object { $_.FullName } } }; Get-Command -Name py -ErrorAction SilentlyContinue | ForEach-Object { $_.Source })",
+      "PowerShell(& \"C:\\\\Python310\\\\python.exe\" -c \"import pandas as pd; df=pd.read_csv\\(r'C:\\\\Users\\\\ezzed\\\\Documents\\\\Machine learning project\\\\repos\\\\FakeNews_LSTM_Mirror\\\\Test Data & Results\\\\test.csv'\\); print\\('shape:', df.shape\\); print\\('columns:', list\\(df.columns\\)\\); print\\('dtypes:'\\); print\\(df.dtypes\\); print\\('id range:', df['id'].min\\(\\), '-', df['id'].max\\(\\)\\); print\\('null counts:'\\); print\\(df.isna\\(\\).sum\\(\\).to_dict\\(\\)\\); print\\('first_text_repr:', repr\\(df['text'].iloc[0][:160]\\)\\)\")",
+      "Bash(curl -s \"https://api.github.com/search/code?q=filename:train.csv+id+title+author+text+label+fake+news&per_page=10\" -H \"Accept: application/vnd.github.v3+json\")",
+      "Bash(curl -s \"https://api.github.com/search/repositories?q=fake-news+kaggle+train+csv&per_page=20\")",
+      "Bash(curl -s \"https://api.github.com/repos/AnitaKatuwal04/Fake_news_detection/contents\")",
+      "Bash(curl -sI \"https://raw.githubusercontent.com/AnitaKatuwal04/Fake_news_detection/main/train.csv\")",
+      "Bash(curl -s -r 0-1500 \"https://raw.githubusercontent.com/AnitaKatuwal04/Fake_news_detection/main/train.csv\")"
+    ]
+  }
+}
